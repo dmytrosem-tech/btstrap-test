@@ -5,6 +5,7 @@ import { Container, Row, Col } from "reactstrap";
 import Post from "./components/Post";
 import Header from "./components/Header";
 import LeftCard from "./components/LeftCard";
+import Something from "./components/something";
 
 const App = () => (
   <Fragment>
@@ -35,6 +36,8 @@ const App = () => (
           </Col>
         </Row>
       </Container>
+      <Something/>
+
     </main>
   </Fragment>
 );
